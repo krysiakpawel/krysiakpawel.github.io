@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://shrouded-oasis-85654.herokuapp.com/v1/task/';
+  var apiRoot = 'https://ancient-tor-47422.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
