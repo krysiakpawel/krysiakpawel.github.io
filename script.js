@@ -90,7 +90,7 @@ $(document).ready(function() {
       url: requestUrl,
       method: "PUT",
       processData: false,
-      contentType: "application/json; charset=utf8",
+      contentType: "application/json; charset=utf-8",
       dataType: 'json',
       data: JSON.stringify({
         id: taskId,
